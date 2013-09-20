@@ -1,0 +1,119 @@
+@import url(../../../stylesheets/application.css);
+
+/***** Theme based on default Redmine's 2.3.3 theme ******/
+
+/***** Fonts ******/
+
+body { font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; }
+h1, h2, h3, h4 { font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Verdana, sans-serif; }
+#projects-index ul.projects div.root a.project { font-family: "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Verdana, sans-serif; }
+code, kbd, listing, plaintext, pre, samp, textarea.wiki-edit, tt, xmp { font-family: Menlo, Consolas, "Andale Mono", monospace; }
+
+/***** Colors ******/
+
+* html #sidebar hr { color: #DDD; }
+#ajax-indicator { background-color: #F9F9F9; border-color: #DDD; }
+#attachments_fields input.filename { color: #636363; }
+#content .tabs ul li a { background-color: #F9F9F9; border-bottom-color: #DDD; border-color: #DDD; color: #636363; }
+#content .tabs ul li a { background-color: #F9F9F9; }
+#content .tabs ul li a.selected { background-color: #FFF; border-bottom-color: #FFF; border-color: #DDD; color: #636363; }
+#content .tabs ul li a.selected:hover { background-color: #FFF; }
+#content .tabs ul li a:hover { background-color: #F9F9F9; }
+#content .tabs ul li { background-color: #FFF; }
+#content .tabs ul { border-bottom-color: #DDD; }
+#content h1, h2, h3, h4 { color: #636363; }
+#footer { background-color: #FFF; border-top-color: #DDD; color: #AAA; }
+#header a { color: #FFF; }
+#header { background-color: #F99D1C; color: #FFF; }
+#login-form table { background-color: #FFE4BF; border-color: #DDD; }
+#login-form table { background-color: #FFE4BF; border-color: #F99D1C; }
+#main { background-color: #F9F9F9; }
+#main-menu li a { color: #FFF; }
+#main-menu li a.selected, #main-menu li a.selected:hover { background-color: #FFF; color: #636363; }
+#main-menu li a:hover { background-color: #ED1C24; color: #FFF; }
+#projects-index ul.projects ul.projects { border-left-color: #DDD; }
+#sidebar a.selected { background-color: #F99D1C; color: #fff; }
+#sidebar h3 { color: #636363; }
+#sidebar hr { background-color: #DDD; }
+#top-menu { background-color: #965F11; }
+.block-receiver { border-color: #DDD; }
+.box { background-color: #F9F9F9; border-color: #DDD; color: #636363; }
+.mypage-box { color: #636363; }
+.nodata, .warning { background-color: #FFE4BF; border-color: #F99D1C; color: #965F11; }
+.nodata, .warning { background-color: #FFE4BF; border-color: #F99D1C; color: #965F11; }
+.odd { background-color: #F9F9F9; }
+.task { color: #636363; }
+.task_todo.parent { background-color: #636363; border-color: #636363; }
+.text-diff { background-color: #F9F9F9; border-color: #DDD; color: #636363; }
+.tooltip:hover { color: #000; }
+a#toggle-completed-versions { color: #636363; }
+a, a:link, a:visited { color: #F99D1C; }
+a.issue.closed, a.issue.closed:link, a.issue.closed:visited { color: #636363; }
+a.project.closed, a.project.closed:link, a.project.closed:visited { color: #636363; }
+a.user.locked, a.user.locked:link, a.user.locked:visited { color: #636363; }
+a:hover, a:active { color: #ED1C24; }
+blockquote { border-left-color: #DDD; }
+body { color: #636363; }
+button.tab-left { background-color: #F9F9F9; }
+button.tab-left, button.tab-right { border-bottom-color: #DDD; border-color: #DDD; }
+button.tab-right { background-color: #F9F9F9; }
+div#activity dd span.description, #search-results dd span.description { color: #636363; }
+div#activity dt .time { color: #636363; }
+div#activity dt.me .time { border-bottom-color: #636363; }
+div.attachments span.author { color: #636363; }
+div.flash.error, #errorExplanation { background-color: #FFE3E4; border-color: #ED1C24; color: #961216; }
+div.flash.warning, .conflict { background-color: #FFE4BF; border-color: #F99D1C; color: #965F11; }
+div.flash.warning, .conflict { background-color: #FFE4BF; border-color: #F99D1C; color: #965F11; }
+div.issue .next-prev-links { color: #636363; }
+div.issue div.subject p { color: #636363; }
+div.issue span.private { background-color: #ED1C24; color: #FFF; }
+div.issue { background-color: #F9F9F9; border-color: #DDD; }
+div.journal.private-notes { border-left-color: #ED1C24; }
+div.square { border-color: #636363; }
+div.tabs-buttons { border-bottom-color: #DDD; }
+div.tooltip:hover span.tip { background-color: #fff; border-color: #636363; color: #000; }
+div.wiki a.new { color: #ED1C24; }
+div.wiki pre { background-color: #F9F9F9; border-color: #DDD; }
+div.wiki table, div.wiki td, div.wiki th { border-color: #DDD; }
+div.wiki ul.toc a { color: #636363; }
+div.wiki ul.toc a:hover { color: #ED1C24; }
+div.wiki ul.toc { background-color: #F9F9F9; border-color: #DDD; }
+em.info { color: #636363; }
+fieldset { border-color: #DDD; }
+h4 { border-bottom-color: #DDD; }
+hr { background-color: #DDD; }
+img.gravatar { background-color: #FFF; border-color: #DDD; }
+input.autocomplete { background-color: #FFF; border-color: #A6A6A6; }
+legend { color: #636363; }
+p.other-formats { color: #636363; }
+p.progress-info { color: #636363; }
+span.required { color: #ED1C24; }
+table#time-report tbody tr.subtotal td.hours { color: #636363; }
+table#time-report tbody tr.subtotal { color: #636363; }
+table#time-report tbody tr.total { background-color: #F9F9F9; border-top-color: #DDD; }
+table.cal td { border-color: #DDD; }
+table.cal td.odd p.day-num { color: #DDD; }
+table.cal td.today { background-color: #FFFFDD; }
+table.cal td.week-number { background-color: #DDD; }
+table.cal thead th { background-color: #DDD; }
+table.cal { border-color: #DDD; }
+table.issues td.description { color: #636363; }
+table.list tbody tr.group span.count { background-color: #F99D1C; color: #fff; }
+table.list tbody tr.group td { border-bottom-color: #DDD; }
+table.list tbody tr:hover { background-color: #FFE4BF; }
+table.list th { background-color: #DDD; }
+table.list { border-color: #DDD; }
+table.permissions td.role { color: #636363; }
+table.progress td.todo { background-color: #FFFFDD; }
+textarea { border-color: #A6A6A6; }
+tr.entry { border-color: #DDD; }
+tr.entry { border-color: #F9F9F9; }
+tr.version.closed, tr.version.closed a { color: #636363; }
+ul.properties { color: #636363; }
+
+/***** Layout ******/
+
+#header { min-height: 3em; }
+#main-menu { background-color: #8B8C8F; left: 0px; margin-right: 0px; padding: 4px 8px 0px 8px; right: 0px; }
+#top-menu { background: #ED1C24; font-size: 1em; height: 1.8em; padding: 0.5em 4px 0px 8px; }
+#quick-search { padding-top: 0.4em; }
