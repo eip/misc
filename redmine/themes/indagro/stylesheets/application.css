@@ -104,7 +104,7 @@ table.list tbody tr:hover { background-color: #FFE4BF; }
 table.list th { background-color: #DDD; }
 table.list { border-color: #DDD; }
 table.permissions td.role { color: #636363; }
-table.progress td.todo { background-color: #FFFFDD; }
+table.progress td.todo { background-color: #FFE3E4; }
 textarea { border-color: #A6A6A6; }
 tr.entry { border-color: #DDD; }
 tr.entry { border-color: #F9F9F9; }
